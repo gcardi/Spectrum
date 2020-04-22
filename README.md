@@ -4,7 +4,7 @@ A simple spectrum analyzer for Windows that uses FFTW
 
 ## Getting Started
 
-This is a simple Windows application written for RADStudio/C++Builder which, using the FFWT library, displays the spectrum of a signal from an audio device. The spectrum graph can be chosen between two modes: logarithmic (dB) or linear.
+This is a simple Windows application written for RADStudio/C++Builder which, using the FFTW library, displays the spectrum of a signal from an audio device. The spectrum graph can be chosen between two modes: logarithmic (dB) or linear.
 
 <img src="https://i.ibb.co/wMZTb4r/1-611-D020-B-2-C12-4839-8567-A7-E8-A650940-E.png" alt="Figure 1">
 
@@ -42,11 +42,11 @@ E:\Prj\Spectrum\FFTW>powershell Expand-Archive -Path %userprofile%\Downloads\fft
 E:\Prj\Spectrum>tree
 +---anafestica
 +---FFTW
-¦   +---fftw-3.3-dll32
-¦   +---fftw-3.3-dll64
+Â¦   +---fftw-3.3-dll32
+Â¦   +---fftw-3.3-dll64
 +---Libs
-¦   +---Win32
-¦   +---Win64
+Â¦   +---Win32
+Â¦   +---Win64
 +---Resources
 ```
 
