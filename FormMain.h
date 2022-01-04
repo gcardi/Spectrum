@@ -21,6 +21,7 @@
 #include "anafestica/PersistFormVCL.h"
 #include "anafestica/CfgRegistrySingleton.h"
 #include <Vcl.AppEvnts.hpp>
+#include <Vcl.ComCtrls.hpp>
 
 #include <array>
 #include <cstdint>
@@ -93,7 +94,6 @@ __published:	// IDE-managed Components
     TButton *Button3;
     TRadioButton *rbtnLin;
     TRadioButton *rbtnLog;
-    TComboBox *comboboxAudioSources;
     TChart *Chart2;
     TLineSeries *Series3;
     TLineSeries *Series4;
@@ -107,6 +107,7 @@ __published:	// IDE-managed Components
     TAction *actLog;
     TAction *actLinear;
     TApplicationEvents *ApplicationEvents1;
+    TComboBoxEx *comboboxAudioSources;
     void __fastcall actStartExecute(TObject *Sender);
     void __fastcall actStartUpdate(TObject *Sender);
     void __fastcall actStopExecute(TObject *Sender);

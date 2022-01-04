@@ -1,0 +1,3 @@
+[submodule "FmtCppBuilder"]
+	path = FmtCppBuilder
+	url = https://github.com/gcardi/FmtCppBuilder.git

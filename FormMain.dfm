@@ -11,7 +11,6 @@ object frmMain: TfrmMain
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
   object Button3: TButton
@@ -38,14 +37,6 @@ object frmMain: TfrmMain
     Action = actLog
     TabOrder = 2
     TabStop = True
-  end
-  object comboboxAudioSources: TComboBox
-    Left = 312
-    Top = 18
-    Width = 281
-    Height = 21
-    Style = csDropDownList
-    TabOrder = 3
   end
   object Chart2: TChart
     AlignWithMargins = True
@@ -75,13 +66,12 @@ object frmMain: TfrmMain
     Align = alBottom
     BevelOuter = bvLowered
     Constraints.MinHeight = 200
-    TabOrder = 4
+    TabOrder = 3
     Anchors = [akLeft, akTop, akRight, akBottom]
-    ExplicitTop = 433
-    ExplicitHeight = 265
     DefaultCanvas = 'TGDIPlusCanvas'
     ColorPaletteIndex = 13
     object Series3: TLineSeries
+      HoverElement = [heCurrent]
       Legend.Visible = False
       SeriesColor = clBlue
       ShowInLegend = False
@@ -97,6 +87,7 @@ object frmMain: TfrmMain
       YValues.Order = loNone
     end
     object Series4: TLineSeries
+      HoverElement = [heCurrent]
       Legend.Visible = False
       Active = False
       SeriesColor = clBlue
@@ -142,12 +133,11 @@ object frmMain: TfrmMain
     Align = alClient
     BevelOuter = bvLowered
     Constraints.MinHeight = 200
-    TabOrder = 5
-    ExplicitTop = 85
-    ExplicitHeight = 316
+    TabOrder = 4
     DefaultCanvas = 'TGDIPlusCanvas'
     ColorPaletteIndex = 13
     object Series1: TLineSeries
+      HoverElement = [heCurrent]
       Legend.Visible = False
       SeriesColor = clBlue
       ShowInLegend = False
@@ -163,6 +153,7 @@ object frmMain: TfrmMain
       YValues.Order = loNone
     end
     object Series2: TLineSeries
+      HoverElement = [heCurrent]
       Legend.Visible = False
       Active = False
       SeriesColor = clBlue
@@ -183,7 +174,16 @@ object frmMain: TfrmMain
     Width = 75
     Height = 25
     Action = actStop
+    TabOrder = 5
+  end
+  object comboboxAudioSources: TComboBoxEx
+    Left = 312
+    Top = 18
+    Width = 281
+    Height = 22
+    ItemsEx = <>
     TabOrder = 6
+    Text = 'comboboxAudioSources'
   end
   object ActionManager1: TActionManager
     Left = 432
