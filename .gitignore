@@ -27,3 +27,5 @@ DocImages/
 *.stat
 *.tds
 *.~*
+*.twopts
+*.@@@
