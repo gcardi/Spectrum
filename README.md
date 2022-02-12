@@ -6,7 +6,7 @@ A simple spectrum analyzer for Windows that uses FFTW
 
 This is a simple Windows application written for RADStudio/C++Builder which, using the FFTW library, displays the spectrum of a signal from an audio device. The spectrum graph can be chosen between two modes: logarithmic (dB) or linear.
 
-<img src="https://i.ibb.co/wMZTb4r/1-611-D020-B-2-C12-4839-8567-A7-E8-A650940-E.png" alt="Figure 1">
+<img src="docs/assets/images/one.png" alt="Figure 1">
 
 ### Prerequisites
 
@@ -14,7 +14,7 @@ You need C++Builder 10.3.3 edition (e.g. the <a href="https://www.embarcadero.co
 
 You also need boost libraries (1.68.0) which you can easily install using GetIt.
 
-<img src="https://i.ibb.co/FmPznnX/3-611-D020-B-2-C12-4839-8567-A7-E8-A650940-E.png" alt="Figure 2">
+<img src="docs/assets/images/two.png" alt="Figure 2">
 
 ### Installing
 
@@ -52,10 +52,10 @@ E:\Prj\Spectrum>tree
 
 Depending on whether you have chosen to compile a 32 or 64 bit application, the build process will copy the appropriate DLL to the executable folder from the fftw-3.3-dll32 folder or from the fftw-3.3-dll64 folder using the following script saved in the Project Options' Build Events.
 
-<img src="https://i.ibb.co/HHQspRB/4-611-D020-B-2-C12-4839-8567-A7-E8-A650940-E.png" alt="Figure 3">
+<img src="docs/assets/images/three.png" alt="Figure 3">
 
-<img src="https://i.ibb.co/FwFYxwP/2-611-D020-B-2-C12-4839-8567-A7-E8-A650940-E.png" alt="Figure 4">
+<img src="docs/assets/images/four.png" alt="Figure 4">
 
 ## License
 
-This project is licensed under the "The Unlicense".
+This project is licensed under the "MIT License".
